@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E9DBFD9E1E00F133002C4AAB /* JSPatchAgg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9DBFD9F1E00F133002C4AAB /* Build configuration list for PBXAggregateTarget "JSPatchAgg" */;
+			buildPhases = (
+				E9DBFDA41E00F1DC002C4AAB /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JSPatchAgg;
+			productName = JSPatchAgg;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E9DBFD8E1E00F0EC002C4AAB /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DBFD841E00F0EC002C4AAB /* JSPatch.framework */; };
+		E9DBFD931E00F0EC002C4AAB /* JSPatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DBFD921E00F0EC002C4AAB /* JSPatchTests.m */; };
+		E9DBFD951E00F0EC002C4AAB /* JSPatch.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBFD871E00F0EC002C4AAB /* JSPatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9DBFDAE1E00F28B002C4AAB /* JPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DBFDA91E00F28B002C4AAB /* JPEngine.h */; };
+		E9DBFDAF1E00F28B002C4AAB /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DBFDAA1E00F28B002C4AAB /* JPEngine.m */; };
+		E9DBFDB11E00F34E002C4AAB /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = E9DBFDAB1E00F28B002C4AAB /* JSPatch.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DBFD8F1E00F0EC002C4AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DBFD7B1E00F0EC002C4AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DBFD831E00F0EC002C4AAB;
+			remoteInfo = JSPatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9DBFD841E00F0EC002C4AAB /* JSPatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSPatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DBFD871E00F0EC002C4AAB /* JSPatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSPatch.h; sourceTree = "<group>"; };
+		E9DBFD881E00F0EC002C4AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DBFD8D1E00F0EC002C4AAB /* JSPatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSPatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DBFD921E00F0EC002C4AAB /* JSPatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSPatchTests.m; sourceTree = "<group>"; };
+		E9DBFD941E00F0EC002C4AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DBFDA21E00F171002C4AAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		E9DBFDA61E00F28B002C4AAB /* README-CN.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-CN.md"; sourceTree = "<group>"; };
+		E9DBFDA71E00F28B002C4AAB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E9DBFDA91E00F28B002C4AAB /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		E9DBFDAA1E00F28B002C4AAB /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		E9DBFDAB1E00F28B002C4AAB /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DBFD801E00F0EC002C4AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBFD8A1E00F0EC002C4AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBFD8E1E00F0EC002C4AAB /* JSPatch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DBFD7A1E00F0EC002C4AAB = {
+			isa = PBXGroup;
+			children = (
+				E9DBFD861E00F0EC002C4AAB /* JSPatch */,
+				E9DBFD911E00F0EC002C4AAB /* JSPatchTests */,
+				E9DBFD851E00F0EC002C4AAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DBFD851E00F0EC002C4AAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBFD841E00F0EC002C4AAB /* JSPatch.framework */,
+				E9DBFD8D1E00F0EC002C4AAB /* JSPatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DBFD861E00F0EC002C4AAB /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBFDA51E00F28B002C4AAB /* doc */,
+				E9DBFDA81E00F28B002C4AAB /* src */,
+				E9DBFDA21E00F171002C4AAB /* README.md */,
+				E9DBFD871E00F0EC002C4AAB /* JSPatch.h */,
+				E9DBFD881E00F0EC002C4AAB /* Info.plist */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		E9DBFD911E00F0EC002C4AAB /* JSPatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBFD921E00F0EC002C4AAB /* JSPatchTests.m */,
+				E9DBFD941E00F0EC002C4AAB /* Info.plist */,
+			);
+			path = JSPatchTests;
+			sourceTree = "<group>";
+		};
+		E9DBFDA51E00F28B002C4AAB /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBFDA61E00F28B002C4AAB /* README-CN.md */,
+				E9DBFDA71E00F28B002C4AAB /* README.md */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		E9DBFDA81E00F28B002C4AAB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E9DBFDA91E00F28B002C4AAB /* JPEngine.h */,
+				E9DBFDAA1E00F28B002C4AAB /* JPEngine.m */,
+				E9DBFDAB1E00F28B002C4AAB /* JSPatch.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9DBFD811E00F0EC002C4AAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBFDAE1E00F28B002C4AAB /* JPEngine.h in Headers */,
+				E9DBFD951E00F0EC002C4AAB /* JSPatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E9DBFD831E00F0EC002C4AAB /* JSPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DBFD981E00F0EC002C4AAB /* Build configuration list for PBXNativeTarget "JSPatch" */;
+			buildPhases = (
+				E9DBFD7F1E00F0EC002C4AAB /* Sources */,
+				E9DBFD801E00F0EC002C4AAB /* Frameworks */,
+				E9DBFD811E00F0EC002C4AAB /* Headers */,
+				E9DBFD821E00F0EC002C4AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPatch;
+			productName = JSPatch;
+			productReference = E9DBFD841E00F0EC002C4AAB /* JSPatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9DBFD8C1E00F0EC002C4AAB /* JSPatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DBFD9B1E00F0EC002C4AAB /* Build configuration list for PBXNativeTarget "JSPatchTests" */;
+			buildPhases = (
+				E9DBFD891E00F0EC002C4AAB /* Sources */,
+				E9DBFD8A1E00F0EC002C4AAB /* Frameworks */,
+				E9DBFD8B1E00F0EC002C4AAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DBFD901E00F0EC002C4AAB /* PBXTargetDependency */,
+			);
+			name = JSPatchTests;
+			productName = JSPatchTests;
+			productReference = E9DBFD8D1E00F0EC002C4AAB /* JSPatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DBFD7B1E00F0EC002C4AAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "思源";
+				TargetAttributes = {
+					E9DBFD831E00F0EC002C4AAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E9DBFD8C1E00F0EC002C4AAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E9DBFD9E1E00F133002C4AAB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E9DBFD7E1E00F0EC002C4AAB /* Build configuration list for PBXProject "JSPatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9DBFD7A1E00F0EC002C4AAB;
+			productRefGroup = E9DBFD851E00F0EC002C4AAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DBFD831E00F0EC002C4AAB /* JSPatch */,
+				E9DBFD8C1E00F0EC002C4AAB /* JSPatchTests */,
+				E9DBFD9E1E00F133002C4AAB /* JSPatchAgg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DBFD821E00F0EC002C4AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBFDB11E00F34E002C4AAB /* JSPatch.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBFD8B1E00F0EC002C4AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9DBFDA41E00F1DC002C4AAB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DBFD7F1E00F0EC002C4AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBFDAF1E00F28B002C4AAB /* JPEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DBFD891E00F0EC002C4AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DBFD931E00F0EC002C4AAB /* JSPatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DBFD901E00F0EC002C4AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DBFD831E00F0EC002C4AAB /* JSPatch */;
+			targetProxy = E9DBFD8F1E00F0EC002C4AAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9DBFD961E00F0EC002C4AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9DBFD971E00F0EC002C4AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9DBFD991E00F0EC002C4AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSPatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.JSPatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9DBFD9A1E00F0EC002C4AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JSPatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.JSPatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E9DBFD9C1E00F0EC002C4AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.JSPatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9DBFD9D1E00F0EC002C4AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSPatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syswin.JSPatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9DBFDA01E00F133002C4AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9DBFDA11E00F133002C4AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-fembed-bitcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DBFD7E1E00F0EC002C4AAB /* Build configuration list for PBXProject "JSPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBFD961E00F0EC002C4AAB /* Debug */,
+				E9DBFD971E00F0EC002C4AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DBFD981E00F0EC002C4AAB /* Build configuration list for PBXNativeTarget "JSPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBFD991E00F0EC002C4AAB /* Debug */,
+				E9DBFD9A1E00F0EC002C4AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9DBFD9B1E00F0EC002C4AAB /* Build configuration list for PBXNativeTarget "JSPatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBFD9C1E00F0EC002C4AAB /* Debug */,
+				E9DBFD9D1E00F0EC002C4AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9DBFD9F1E00F133002C4AAB /* Build configuration list for PBXAggregateTarget "JSPatchAgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DBFDA01E00F133002C4AAB /* Debug */,
+				E9DBFDA11E00F133002C4AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DBFD7B1E00F0EC002C4AAB /* Project object */;
+}
