@@ -244,10 +244,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E92BB5501E0E2C5E006B63D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9DBFD7A1E00F0EC002C4AAB = {
 			isa = PBXGroup;
 			children = (
-				E9DBFE691E012B63002C4AAB /* Frameworks */,
+				E92BB5501E0E2C5E006B63D5 /* Frameworks */,
 				E9DBFD861E00F0EC002C4AAB /* JSPatch */,
 				E9DBFD911E00F0EC002C4AAB /* JSPatchTests */,
 				E9DBFD851E00F0EC002C4AAB /* Products */,
@@ -509,13 +516,6 @@
 			path = JPPlaygroundView;
 			sourceTree = "<group>";
 		};
-		E9DBFE691E012B63002C4AAB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -617,7 +617,7 @@
 		E9DBFD7B1E00F0EC002C4AAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "思源";
 				TargetAttributes = {
 					E9DBFD831E00F0EC002C4AAB = {
@@ -774,6 +774,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -825,6 +826,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -953,6 +955,7 @@
 				E9DBFD9A1E00F0EC002C4AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9DBFD9B1E00F0EC002C4AAB /* Build configuration list for PBXNativeTarget "JSPatchTests" */ = {
 			isa = XCConfigurationList;
@@ -961,6 +964,7 @@
 				E9DBFD9D1E00F0EC002C4AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9DBFD9F1E00F133002C4AAB /* Build configuration list for PBXAggregateTarget "JSPatchAgg" */ = {
 			isa = XCConfigurationList;
@@ -969,6 +973,7 @@
 				E9DBFDA11E00F133002C4AAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
